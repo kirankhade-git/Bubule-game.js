@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 209, 181);
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+#ptop{
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(38, 141, 81);
+}
+.elem{
+    display: flex;
+    width: 10%;
+    gap: 20px;
+}
+.box{
+    color:rgb(64, 141, 64);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
